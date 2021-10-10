@@ -11,7 +11,6 @@ import {
   TagList,
   TitleContent,
   UtilityList,
-  Img,
 } from "./ProjectsStyles";
 import {
   Section,
@@ -28,7 +27,6 @@ const Projects = () => (
       {projects.map(
         ({ id, image, title, description, tags, source, visit }) => (
           <BlogCard key={id}>
-            <Img src={image} />
             <TitleContent>
               <HeaderThree title>{title}</HeaderThree>
               <Hr />
