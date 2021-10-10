@@ -1,9 +1,10 @@
+import opp from "../../public/images/1.png";
 export const projects = [
   {
     title: "OpportunitySG",
     description:
       "Worked with a startup to deploy a Web application to map the potential Interns with Employers, by recognising the value of connecting like-minded intentions, the goal is to create an sustainable ecosystem of individuals and businesses which continually build on each other.",
-    image: "/images/1.png",
+    image: opp,
     tags: ["Mongo", "Express", "React", "Node"],
     source: "http://www.opportunitysg.com/",
     visit: "http://www.opportunitysg.com/",
